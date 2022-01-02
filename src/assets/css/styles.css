@@ -86,7 +86,7 @@ img{
     position: relative;
     font-size: var(--h2-font-size);
     color: var(--dark-color);
-    margin: var(--mb-4) 0;
+    margin: var(--mb-1) 0;
     text-align: center;
 }
 .section-title::after{
@@ -151,6 +151,8 @@ img{
     color: var(--first-color);
 }
 .nav__logo{
+    font-size: 40px;
+    font-family: 'IM Fell English SC', serif;
     color: var(--white-color);
 }
 .nav__toggle{
@@ -413,8 +415,14 @@ img{
     .nav{
         height: calc(var(--header-height) + 1rem);
     }
+    .nav__menu{
+        top: 0;
+        right: 0;
+        float: right;
+    }
     .nav__list{
         display: flex;
+       
     }
     .nav__item{
         margin-left: var(--mb-4);
@@ -447,7 +455,7 @@ img{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         text-align: initial;
-        padding: 4rem 0;
+        padding: 1rem 0;
     }
     .about__img{
         width: 200px;
